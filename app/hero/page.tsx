@@ -5,7 +5,7 @@ import { LayoutTextFlip } from "@/components/ui/layout-text-flip";
 import { motion } from "motion/react";
 import { Github, Linkedin, Twitter } from "lucide-react";
 
-export function HeroSection() {
+export default function HeroSection() {
   return (
     <section id="home" className="relative min-h-screen w-full overflow-hidden">
       {/* DARK / GRADIENT BLEND */}

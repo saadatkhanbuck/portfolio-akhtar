@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { NavbarDemo } from "./navbar/page";
+import NavbarDemo from "./components/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className="overflow-x-hidden"
-    >
+    <html lang="en" className="overflow-x-hidden">
       {/* 🔥 Critical inline script for theme */}
       <script
         dangerouslySetInnerHTML={{
@@ -49,7 +46,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
-        <NavbarDemo />
+        <NavbarDemo/>
         <main className="overflow-x-hidden">{children}</main>
       </body>
     </html>
