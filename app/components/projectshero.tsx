@@ -34,7 +34,7 @@ export default function ProjectsHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-5xl font-semibold leading-[1.05] tracking-tight md:text-7xl"
+              className="text-5xl font-semibold leading-[1.05] dark:text-white tracking-tight md:text-7xl"
             >
               Real products.
               <br />
@@ -94,13 +94,14 @@ export default function ProjectsHero() {
               transition={{ delay: 0.4 }}
               className="mt-12 flex gap-12 md:justify-start justify-center"
             >
+              
               {[
                 { value: "25+", label: "Projects" },
                 { value: "15+", label: "Clients" },
                 { value: "13+ yrs", label: "Experience" },
               ].map((item) => (
                 <div key={item.label}>
-                  <p className="text-3xl font-semibold tracking-tight">
+                  <p className="text-3xl font-semibold dark:text-white tracking-tight">
                     {item.value}
                   </p>
                   <p className="mt-1 text-sm text-neutral-500">{item.label}</p>
