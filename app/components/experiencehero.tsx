@@ -2,16 +2,12 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, } from "lucide-react";
 
 export default function ExperienceHero() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-white text-neutral-900">
+    <section className="relative min-h-screen overflow-hidden  text-neutral-900">
       {/* gradient background */}
-      <div className="absolute inset-0 -z-20 bg-gradient-to-b from-white via-neutral-50 to-white" />
-
-      {/* subtle grid */}
-      <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#00000005_1px,transparent_1px),linear-gradient(to_bottom,#00000005_1px,transparent_1px)] bg-[size:48px_48px]" />
 
       {/* radial glow */}
       <div className="absolute left-1/2 top-[-20%] -z-10 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-neutral-200/40 blur-3xl" />
@@ -26,7 +22,7 @@ export default function ExperienceHero() {
               animate={{ opacity: 1, y: 0 }}
               className="mb-6 inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-4 py-1.5 text-sm font-medium text-neutral-600 shadow-sm"
             >
-              <Sparkles size={14} />
+              <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
               Career Path
             </motion.div>
 
@@ -35,7 +31,7 @@ export default function ExperienceHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-5xl font-semibold leading-[1.05] tracking-tight md:text-7xl"
+              className="text-5xl font-semibold dark:text-white leading-[1.05] tracking-tight md:text-7xl"
             >
               Experience that builds.
               <br />
