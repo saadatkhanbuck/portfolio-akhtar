@@ -64,7 +64,7 @@ export default function ProjectsHero() {
             >
               <Link
                 href="/#projects"
-                className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-xl bg-neutral-900 px-8 py-3 font-medium text-white transition"
+                className="group relative inline-flex items-center justify-center border border-gray-900 dark:border dark:border-white gap-2 overflow-hidden rounded-xl bg-neutral-900 px-8 py-3 font-medium text-white transition"
               >
                 <span className="absolute inset-0 translate-y-full bg-white transition duration-300 group-hover:translate-y-0" />
                 <span className="relative z-10 flex items-center gap-2 group-hover:text-black">
@@ -78,9 +78,12 @@ export default function ProjectsHero() {
 
               <Link
                 href="/contactme"
-                className="rounded-xl border border-neutral-300 bg-white px-8 py-3 font-medium text-neutral-700 transition hover:-translate-y-0.5 hover:shadow-md hover:border-neutral-900 hover:text-neutral-900"
+                className="group relative inline-flex items-center justify-center border border-gray-900 dark:border dark:border-white gap-2 overflow-hidden rounded-xl bg-white px-8 py-3 font-medium text-black transition"
               >
-                Start a Project
+                <span className="absolute inset-0 translate-y-full bg-black transition duration-300 group-hover:translate-y-0" />
+                <span className="relative z-10 flex items-center gap-2 group-hover:text-white">
+                  Start a Project
+                </span>
               </Link>
             </motion.div>
 

@@ -84,20 +84,24 @@ export default function HeroSection() {
             >
               <a
                 href="/projects"
-                className="group rounded-xl bg-black px-7 py-3 font-semibold text-white shadow-lg transition hover:scale-105"
+                className="group relative inline-flex items-center justify-center border border-gray-900 dark:border dark:border-white gap-2 overflow-hidden rounded-xl bg-neutral-900 px-8 py-3 font-medium text-white transition"
               >
-                View Projects
-                <span className="ml-2 inline-block transition group-hover:translate-x-1">
-                  →
-                </span>
+                  <span className="absolute inset-0 translate-y-full bg-white transition duration-300 group-hover:translate-y-0" />
+                  <span className="relative z-10 flex items-center gap-2 group-hover:text-black">
+                  View Projects
+                  </span>
+                  <span className="ml-2 inline-block transition group-hover:translate-x-1">
+                    →
+                  </span>
               </a>
 
               <a
                 href="/Akhtar_Abbas_CV (2).pdf"
                 download="Akhtar-Abbas-CV.pdf"
-                className="rounded-xl border bg-white/70 backdrop-blur dark:text-black dark:hover:text-white px-7 py-3 font-semibold transition hover:bg-black hover:text-white hover:scale-105"
+                className="group relative inline-flex items-center justify-center border border-gray-900 dark:border dark:border-white gap-2 overflow-hidden rounded-xl bg-white px-8 py-3 font-medium text-black transition"
               >
-                Download CV
+                <span className="absolute inset-0 translate-y-full bg-black transition duration-300 group-hover:translate-y-0" />
+                <span className="relative z-10 flex items-center gap-2 group-hover:text-white">Download CV</span>
               </a>
             </motion.div>
 

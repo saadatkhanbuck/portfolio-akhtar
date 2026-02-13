@@ -35,7 +35,7 @@ export default function ExperienceHero() {
             >
               Experience that builds.
               <br />
-              <span className="bg-gradient-to-r from-neutral-400 to-neutral-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-neutral-400 to-neutral-400 bg-clip-text text-transparent">
                 Impact that lasts.
               </span>
             </motion.h1>
@@ -45,7 +45,7 @@ export default function ExperienceHero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="mt-6 max-w-xl text-lg leading-relaxed text-neutral-600"
+              className="mt-6 max-w-xl text-lg leading-relaxed text-neutral-600 dark:text-neutral-300"
             >
               Over the years I’ve worked across startups and enterprise
               environments, leading teams, architecting systems, and shipping
@@ -61,11 +61,11 @@ export default function ExperienceHero() {
             >
               <Link
                 href="/contactme"
-                className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-xl bg-neutral-900 px-8 py-3 font-medium text-white"
+                className="group relative border border-black dark:border dark:border-white inline-flex items-center justify-center gap-2 overflow-hidden rounded-xl bg-neutral-900 px-8 py-3 font-medium text-white"
               >
-                <span className="absolute inset-0 translate-y-full bg-white transition duration-300 group-hover:translate-y-0" />
+                <span className="absolute inset-0 translate-y-full bg-white  transition duration-300 group-hover:translate-y-0" />
                 <span className="relative z-10 flex items-center gap-2 group-hover:text-black">
-                  Hire Me
+                  Contact Me
                   <ArrowRight
                     size={18}
                     className="transition group-hover:translate-x-1"
@@ -75,9 +75,12 @@ export default function ExperienceHero() {
 
               <Link
                 href="/#projects"
-                className="rounded-xl border border-neutral-300 bg-white px-8 py-3 font-medium text-neutral-700 transition hover:-translate-y-0.5 hover:shadow-md hover:border-neutral-900 hover:text-neutral-900"
+                className="group relative border border-black inline-flex items-center dark:border dark:border-white justify-center gap-2 overflow-hidden rounded-xl bg-neutral-900 px-8 py-3 font-medium text-white"
               >
-                View Work
+                <span className="absolute inset-0 translate-y-full bg-white  dark:border dark:border-white transition duration-300 group-hover:translate-y-0" />
+                <span className="relative z-10 flex items-center gap-2 group-hover:text-black">
+                  View Work
+                </span>
               </Link>
             </motion.div>
 
@@ -94,7 +97,7 @@ export default function ExperienceHero() {
                 { value: "10+", label: "Teams Led" },
               ].map((item) => (
                 <div key={item.label}>
-                  <p className="text-3xl font-semibold">{item.value}</p>
+                  <p className="text-3xl dark:text-neutral-300 font-semibold">{item.value}</p>
                   <p className="text-sm text-neutral-500">{item.label}</p>
                 </div>
               ))}
