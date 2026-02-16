@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CirclePoundSterling } from "lucide-react"; // Lucide icon
 import PricingHero from "../components/pricinghero";
+import FAQPage from "../components/faq";
 
 type Plan = {
   name: string;
@@ -44,6 +45,7 @@ export default function PremiumPricing() {
   return (
     <>
      <PricingHero/>
+     <FAQPage/>
       <div className="py-24 flex flex-col items-center">
         {/* Heading with Icon + Line */}
         <motion.div

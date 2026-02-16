@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { Mails } from "lucide-react"; // Example icon
 import { MacbookScrollDemo } from "../components/mackbook";
+import ContactHero from "../components/contacthero";
 
 export default function ContactMe() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -13,6 +14,8 @@ export default function ContactMe() {
   };
 
   return (
+    <>
+    <ContactHero/>
     <div className="mt-10">
     <MacbookScrollDemo/>
     <div  className="max-w-md mx-auto my-16 px-4 overflow-x-hidden">
@@ -84,6 +87,7 @@ export default function ContactMe() {
       </div>
     </div>
     </div>
+    </>
   );
 }
 

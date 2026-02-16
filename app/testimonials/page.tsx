@@ -1,5 +1,6 @@
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { Pyramid  } from "lucide-react";
+import TestimonialHero from "../components/testimonialshero";
 
 export default function TestimonialsDemo() {
   const testimonials = [
@@ -41,6 +42,8 @@ export default function TestimonialsDemo() {
   ];
 
   return (
+    <>
+    <TestimonialHero/>
     <div  className="max-w-6xl mx-auto px-4 py-16">
       {/* Heading with icon & line */}
       <div className="flex items-center justify-center gap-4 mb-10">
@@ -59,5 +62,6 @@ export default function TestimonialsDemo() {
       {/* Animated Testimonials */}
       <AnimatedTestimonials testimonials={testimonials} />
     </div>
+    </>
   );
 }
