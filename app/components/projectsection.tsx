@@ -15,12 +15,13 @@ interface Project {
 
 const projects: Project[] = [
   {
-    "shortTitle": "TROUNCE",
-    "title": "TROUNCE – Social Media Content Scheduling System",
-    "role": "Team Lead",
-    "duration": "Feb 2025 – Present",
-    "description": "TROUNCE is a social media content scheduling and automation platform that enables businesses to manage, schedule, and publish content across LinkedIn, Facebook, Instagram, and Twitter from a centralized dashboard.",
-    "tech": [
+    shortTitle: "TROUNCE",
+    title: "TROUNCE – Social Media Content Scheduling System",
+    role: "Team Lead",
+    duration: "Feb 2025 – Present",
+    description:
+      "TROUNCE is a social media content scheduling and automation platform that enables businesses to manage, schedule, and publish content across LinkedIn, Facebook, Instagram, and Twitter from a centralized dashboard.",
+    tech: [
       "Express.js",
       "React.js",
       "MongoDB",
@@ -30,23 +31,24 @@ const projects: Project[] = [
       "Facebook Graph API",
       "Instagram Graph API",
       "Twitter API",
-      "Bootstrap"
+      "Bootstrap",
     ],
-    "highlights": [
+    highlights: [
       "Designed and developed backend APIs for content scheduling and publishing",
       "Implemented OAuth 2.0 secure authentication and account linking",
       "Built a scheduling engine using background jobs for automated posting",
       "Developed real-time dashboard for post status tracking",
-      "Integrated analytics module for engagement metrics (likes, shares, comments, reach)"
-    ]
+      "Integrated analytics module for engagement metrics (likes, shares, comments, reach)",
+    ],
   },
   {
-    "shortTitle": "ASKAII",
-    "title": "ASKAII – Heathrow Airport Parking Booking System (UK)",
-    "role": "Full Stack Developer",
-    "duration": "Apr 2024 – Present",
-    "description": "ASKAII is a modern web-based airport parking reservation system developed for Heathrow Airport, allowing users to search, book, and manage parking with real-time availability and secure payment processing.",
-    "tech": [
+    shortTitle: "ASKAII",
+    title: "ASKAII – Heathrow Airport Parking Booking System (UK)",
+    role: "Full Stack Developer",
+    duration: "Apr 2024 – Present",
+    description:
+      "ASKAII is a modern web-based airport parking reservation system developed for Heathrow Airport, allowing users to search, book, and manage parking with real-time availability and secure payment processing.",
+    tech: [
       "React.js",
       "ASP.NET Core Web API",
       "Entity Framework Core",
@@ -55,24 +57,25 @@ const projects: Project[] = [
       "Bootstrap",
       "REST APIs",
       "JWT Authentication",
-      "Stripe"
+      "Stripe",
     ],
-    "highlights": [
+    highlights: [
       "Developed RESTful APIs for bookings, pricing, and user management",
       "Integrated SQL Server using Entity Framework Core",
       "Built responsive UI in React.js with Redux state management",
       "Implemented JWT-based authentication and role-based authorization",
       "Optimized API performance and production reliability",
-      "Integrated secure online payment processing"
-    ]
+      "Integrated secure online payment processing",
+    ],
   },
   {
-    "shortTitle": "Persivia",
-    "title": "Persivia Carespace – Healthcare Data Monitoring Platform",
-    "role": "Principal Software Engineer",
-    "duration": "Nov 2019 – Present",
-    "description": "Healthcare data monitoring and analytics platform supporting population health management, care coordination, and compliance with CMS, MIPS, and ACO programs.",
-    "tech": [
+    shortTitle: "Persivia",
+    title: "Persivia Carespace – Healthcare Data Monitoring Platform",
+    role: "Principal Software Engineer",
+    duration: "Nov 2019 – Present",
+    description:
+      "Healthcare data monitoring and analytics platform supporting population health management, care coordination, and compliance with CMS, MIPS, and ACO programs.",
+    tech: [
       ".NET",
       "SQL Server",
       "ClickHouse",
@@ -80,24 +83,25 @@ const projects: Project[] = [
       "HL7",
       "FHIR",
       "Healthcare Compliance",
-      "Microservices Architecture"
+      "Microservices Architecture",
     ],
-    "highlights": [
+    highlights: [
       "Designed high-performance backend systems for processing clinical and claims data",
       "Integrated HL7 and FHIR healthcare data feeds",
       "Built real-time monitoring dashboards for compliance programs",
       "Optimized ingestion pipelines for large-scale data processing",
       "Ensured HIPAA-compliant handling of PHI",
-      "Led automation of compliance reporting reducing manual effort by 60%"
-    ]
+      "Led automation of compliance reporting reducing manual effort by 60%",
+    ],
   },
   {
-    "shortTitle": "SureTec",
-    "title": "SureTec – Surety Bond Management System (US)",
-    "role": "Senior ASP.NET Developer / Full Stack Developer",
-    "duration": "Jul 2016 – Oct 2019",
-    "description": "Comprehensive web-based system for managing the full lifecycle of surety bonds including underwriting, issuance, renewal, claims processing, and compliance reporting.",
-    "tech": [
+    shortTitle: "SureTec",
+    title: "SureTec – Surety Bond Management System (US)",
+    role: "Senior ASP.NET Developer / Full Stack Developer",
+    duration: "Jul 2016 – Oct 2019",
+    description:
+      "Comprehensive web-based system for managing the full lifecycle of surety bonds including underwriting, issuance, renewal, claims processing, and compliance reporting.",
+    tech: [
       "ASP.NET Web Forms",
       "C#",
       "Entity Framework",
@@ -106,23 +110,24 @@ const projects: Project[] = [
       "jQuery",
       "Bootstrap",
       "iTextSharp",
-      "Authorize.NET"
+      "Authorize.NET",
     ],
-    "highlights": [
+    highlights: [
       "Developed bond creation and underwriting workflows",
       "Implemented automated PDF bond document generation",
       "Designed relational database structure for contracts and financial data",
       "Built REST APIs for third-party integrations",
-      "Collaborated with business teams to ensure regulatory compliance"
-    ]
+      "Collaborated with business teams to ensure regulatory compliance",
+    ],
   },
   {
-    "shortTitle": "EVAC",
-    "title": "EVAC – Electronic Medical Record (EMR) System",
-    "role": "Senior ASP.NET Developer / Full Stack Developer",
-    "duration": "Jan 2016 – Mar 2018",
-    "description": "Secure HIPAA-compliant Electronic Medical Record (EMR) system for managing patient records, clinical workflows, appointments, and healthcare documentation.",
-    "tech": [
+    shortTitle: "EVAC",
+    title: "EVAC – Electronic Medical Record (EMR) System",
+    role: "Senior ASP.NET Developer / Full Stack Developer",
+    duration: "Jan 2016 – Mar 2018",
+    description:
+      "Secure HIPAA-compliant Electronic Medical Record (EMR) system for managing patient records, clinical workflows, appointments, and healthcare documentation.",
+    tech: [
       "ASP.NET MVC",
       "C#",
       "Entity Framework",
@@ -130,127 +135,127 @@ const projects: Project[] = [
       "SQL Server",
       "HL7 Integration",
       "Bootstrap",
-      "Telerik Controls"
+      "Telerik Controls",
     ],
-    "highlights": [
+    highlights: [
       "Developed clinical modules and workflows",
       "Implemented HL7 data integration for lab interoperability",
       "Enforced role-based access control for HIPAA compliance",
       "Optimized SQL queries and stored procedures",
-      "Built reporting dashboards for clinical and administrative metrics"
-    ]
+      "Built reporting dashboards for clinical and administrative metrics",
+    ],
   },
   {
-    "shortTitle": "BI System",
-    "title": "Business Intelligence – Supply Chain Analytics Platform",
-    "role": "ASP.NET MVC Developer",
-    "duration": "Jun 2015 – Jan 2016",
-    "description": "Business Intelligence web application developed for monitoring warehouse distribution and product analytics with interactive dashboards and reporting.",
-    "tech": [
+    shortTitle: "BI System",
+    title: "Business Intelligence – Supply Chain Analytics Platform",
+    role: "ASP.NET MVC Developer",
+    duration: "Jun 2015 – Jan 2016",
+    description:
+      "Business Intelligence web application developed for monitoring warehouse distribution and product analytics with interactive dashboards and reporting.",
+    tech: [
       "ASP.NET MVC",
       "C#",
       "Entity Framework",
       "SQL Server",
       "jQuery",
-      "CSS"
+      "CSS",
     ],
-    "highlights": [
+    highlights: [
       "Built real-time inventory monitoring dashboards",
       "Developed dynamic data visualization modules",
       "Created complex stored procedures for large datasets",
-      "Implemented drill-down reporting for warehouse analytics"
-    ]
+      "Implemented drill-down reporting for warehouse analytics",
+    ],
   },
   {
-    "shortTitle": "Limos4Less",
-    "title": "Limos4Less – Online Limousine Booking System",
-    "role": "ASP.NET Developer",
-    "duration": "Mar 2014 – Jun 2015",
-    "description": "Web-based limousine booking platform supporting real-time availability, fare calculation, online reservations, and secure payments.",
-    "tech": [
+    shortTitle: "Limos4Less",
+    title: "Limos4Less – Online Limousine Booking System",
+    role: "ASP.NET Developer",
+    duration: "Mar 2014 – Jun 2015",
+    description:
+      "Web-based limousine booking platform supporting real-time availability, fare calculation, online reservations, and secure payments.",
+    tech: [
       "ASP.NET Web Forms",
       "C#",
       "ADO.NET",
       "SQL Server",
       "Google APIs",
-      "PayPal"
+      "PayPal",
     ],
-    "highlights": [
+    highlights: [
       "Developed booking workflows and fare estimation logic",
       "Integrated Google APIs for location services",
       "Designed optimized database schema for bookings",
-      "Implemented role-based admin and customer portals"
-    ]
+      "Implemented role-based admin and customer portals",
+    ],
   },
   {
-    "shortTitle": "POS",
-    "title": "Point of Sale (POS) Desktop Application",
-    "role": "Desktop Application Developer",
-    "duration": "Oct 2014 – Jun 2015",
-    "description": "Windows-based POS system for managing sales transactions, inventory tracking, billing, and reporting for retail businesses.",
-    "tech": [
+    shortTitle: "POS",
+    title: "Point of Sale (POS) Desktop Application",
+    role: "Desktop Application Developer",
+    duration: "Oct 2014 – Jun 2015",
+    description:
+      "Windows-based POS system for managing sales transactions, inventory tracking, billing, and reporting for retail businesses.",
+    tech: [
       "VB.NET",
       "Windows Forms",
       "ADO.NET",
       "SQL Server",
-      "Crystal Reports"
+      "Crystal Reports",
     ],
-    "highlights": [
+    highlights: [
       "Developed full desktop UI and backend logic",
       "Integrated barcode scanning support",
       "Implemented inventory control and low-stock alerts",
-      "Built sales and profit analysis reports"
-    ]
+      "Built sales and profit analysis reports",
+    ],
   },
   {
-    "shortTitle": "School MS",
-    "title": "School Management System",
-    "role": "ASP.NET Developer",
-    "duration": "Aug 2014 – Jun 2015",
-    "description": "Web-based academic management system handling admissions, fee management, exams, staff operations, and reporting.",
-    "tech": [
+    shortTitle: "School MS",
+    title: "School Management System",
+    role: "ASP.NET Developer",
+    duration: "Aug 2014 – Jun 2015",
+    description:
+      "Web-based academic management system handling admissions, fee management, exams, staff operations, and reporting.",
+    tech: [
       "ASP.NET Web Forms",
       "C#",
       "ADO.NET",
       "SQL Server",
       "Crystal Reports",
-      "JavaScript"
+      "JavaScript",
     ],
-    "highlights": [
+    highlights: [
       "Developed admissions, fees, and examination modules",
       "Implemented role-based access for admin, teachers, students",
       "Integrated Crystal Reports for report cards and receipts",
-      "Optimized database queries for performance"
-    ]
+      "Optimized database queries for performance",
+    ],
   },
   {
-    "shortTitle": "WIMS",
-    "title": "Workshop Information Management System",
-    "role": "Full Stack Developer",
-    "duration": "Oct 2012 – Aug 2013",
-    "description": "Workshop automation system for managing vehicle service records, job cards, spare parts inventory, billing, and technician assignments.",
-    "tech": [
-      "ASP.NET Web Forms",
-      "C#",
-      "ADO.NET",
-      "SQL Server"
-    ],
-    "highlights": [
+    shortTitle: "WIMS",
+    title: "Workshop Information Management System",
+    role: "Full Stack Developer",
+    duration: "Oct 2012 – Aug 2013",
+    description:
+      "Workshop automation system for managing vehicle service records, job cards, spare parts inventory, billing, and technician assignments.",
+    tech: ["ASP.NET Web Forms", "C#", "ADO.NET", "SQL Server"],
+    highlights: [
       "Developed job card and service tracking modules",
       "Designed database schema and data access layers",
       "Implemented billing and invoice generation",
-      "Ensured role-based access control and input validation"
-    ]
-  }
+      "Ensured role-based access control and input validation",
+    ],
+  },
 ];
-
 
 export default function Projects() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="min-h-screen flex   text-black dark:text-white">
+    <section className="min-h-screen flex flex-col md:flex-row text-black dark:text-white">
       {/* LEFT SIDEBAR */}
+      {/* DESKTOP SIDEBAR */}
       <aside className="w-1/4 hidden md:flex flex-col p-6 border-r border-neutral-200 dark:border-neutral-800">
         <h2 className="text-xl font-bold mb-6">Projects</h2>
 
@@ -271,8 +276,27 @@ export default function Projects() {
         </div>
       </aside>
 
+      {/* MOBILE TABS */}
+      <div className="md:hidden overflow-x-auto border-b border-neutral-200 dark:border-neutral-800">
+        <div className="flex gap-3 p-4 min-w-max">
+          {projects.map((project, idx) => (
+            <button
+              key={project.title}
+              onClick={() => setActiveIndex(idx)}
+              className={`text-xs whitespace-nowrap px-4 py-2 rounded-full border transition ${
+                activeIndex === idx
+                  ? "bg-black text-white dark:bg-white dark:text-black"
+                  : "border-neutral-300 dark:border-neutral-700"
+              }`}
+            >
+              {project.shortTitle}
+            </button>
+          ))}
+        </div>
+      </div>
+
       {/* RIGHT PANEL */}
-      <main className="flex-1 p-6 md:p-10">
+      <main className="flex-1 p-5 sm:p-6 md:p-10">
         <AnimatePresence mode="wait">
           <motion.div
             key={projects[activeIndex].title}
@@ -283,12 +307,11 @@ export default function Projects() {
             className="space-y-6 max-w-4xl"
           >
             <div>
-              <h3 className="text-3xl font-bold">
+              <h3 className="text-2xl sm:text-3xl font-bold leading-tight">
                 {projects[activeIndex].title}
               </h3>
               <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-2">
-                {projects[activeIndex].role} •{" "}
-                {projects[activeIndex].duration}
+                {projects[activeIndex].role} • {projects[activeIndex].duration}
               </p>
             </div>
 
