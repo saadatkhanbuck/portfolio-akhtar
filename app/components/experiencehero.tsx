@@ -93,8 +93,8 @@ export default function ExperienceHero() {
             >
               {[
                 { value: "13+", label: "Years" },
-                { value: "20+", label: "Products" },
-                { value: "10+", label: "Teams Led" },
+                { value: "100+", label: "Products" },
+                { value: "50+", label: "Teams Led" },
               ].map((item) => (
                 <div key={item.label}>
                   <p className="text-3xl dark:text-neutral-300 font-semibold">{item.value}</p>

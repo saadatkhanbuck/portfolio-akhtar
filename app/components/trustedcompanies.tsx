@@ -84,7 +84,7 @@ export function TrustedCompanies() {
         relative flex flex-col md:flex-row
         min-h-[28rem] md:h-[24rem]
         w-full gap-6 overflow-hidden
-        rounded-3xl p-4 sm:p-6 shadow-xl
+        rounded-3xl p-4 sm:p-6 
       "
     >
       {/* Left Section */}

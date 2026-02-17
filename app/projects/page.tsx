@@ -161,9 +161,10 @@ export default function ProjectsDemo() {
 
   return (
     <>
-    <ProjectsHero/>
-    <ProjectSection/>
+      <ProjectsHero />
       <TrustedCompanies />
+      <ProjectSection />
+
       <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative flex flex-col max-w-5xl mx-auto w-full my-40">
         <div className="flex items-center justify-center gap-4 mb-10 w-full">
           <Codepen className="w-7 h-7 mt-2 text-neutral-700 dark:text-white" />

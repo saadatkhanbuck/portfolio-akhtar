@@ -253,7 +253,7 @@ export default function Projects() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="min-h-screen flex flex-col md:flex-row text-black dark:text-white">
+    <section className="min-h-screen mt-10 flex flex-col md:flex-row text-black dark:text-white">
       {/* LEFT SIDEBAR */}
       {/* DESKTOP SIDEBAR */}
       <aside className="w-1/4 hidden md:flex flex-col p-6 border-r border-neutral-200 dark:border-neutral-800">

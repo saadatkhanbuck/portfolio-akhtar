@@ -3,6 +3,8 @@
 import { LayoutDashboard, EarthLock, Code2, LucideIcon, ChevronDown, X } from "lucide-react";
 import { useState } from "react";
 import ExperienceHero from "../components/experiencehero";
+import Work from "../components/work";
+import LeadershipImpact from "../components/leadership";
 
 /* =========================
    TYPES
@@ -80,6 +82,8 @@ export default function WorkExperienceSection() {
   return (
     <>
     <ExperienceHero/>
+    <Work/>
+    <LeadershipImpact/>
     <section  className="max-w-6xl mx-auto my-20 px-4">
       {/* Heading */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-10">

@@ -96,8 +96,8 @@ export default function ProjectsHero() {
             >
               
               {[
-                { value: "25+", label: "Projects" },
-                { value: "15+", label: "Clients" },
+                { value: "150+", label: "Projects" },
+                { value: "99+", label: "Clients" },
                 { value: "13+ yrs", label: "Experience" },
               ].map((item) => (
                 <div key={item.label}>
